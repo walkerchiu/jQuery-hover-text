@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+.JHT {
+}
+.JHT .JHT_target {
+    cursor: default;
+}
+.JHT a.JHT_target {
+    cursor: pointer;
+}
+.JHT .JHT_show {
+    position: fixed;
+    color: #000;
+    font-weight: normal;
+    text-align: left;
+    display: none;
+    background: #FFC;
+    border: 1px dashed #CCC;
+    padding: 10px;
+    z-index: 5;
+    overflow: hidden;
+}
+.JHT .JHT_card {
+    position: fixed;
+    color: #000;
+    font-weight: normal;
+    text-align: left;
+    display: none;
+    background: #FFF;
+    border: 1px solid wheat;
+    padding: 10px;
+    z-index: 5;
+    overflow: hidden;
+}
+    .JHT .JHT_card .JHT_div_l {
+        float: left;
+        width: 30%;
+        border-right-width: 1px;
+        border-right-style: solid;
+        border-right-color: wheat;
+        padding-right: 10px;
+    }
+    .JHT .JHT_card .JHT_div_r {
+        float: right;
+        width: 70%;
+        padding-left: 10px;
+    }
+    .JHT .JHT_card .JHT_div_l img {
+        width: 100%;
+    }
+    .JHT .JHT_card .JHT_from {
+        text-align: center;
+        padding: 5px;
+    }
+    .JHT .JHT_card .JHT_title {
+        font-weight: bold;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: wheat;
+        padding-bottom: 5px;
+    }
+    .JHT .JHT_card .JHT_info {
+        padding: 5px 0;
+    }
+    .JHT .JHT_card .JHT_footer {
+        color: #999;
+        text-align: right;
+    }
+.JHT .JHT_box {
+    position: fixed;
+    color: #000;
+    font-weight: normal;
+    text-align: left;
+    display: none;
+    background: #FFF;
+    border: 1px solid wheat;
+    padding: 10px;
+    z-index: 5;
+    overflow: hidden;
+}
+    .JHT .JHT_box .JHT_title {
+        font-weight: bold;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: wheat;
+        padding-bottom: 5px;
+    }
+    .JHT .JHT_box img {
+        width: 100%;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: wheat;
+        padding: 5px 0;
+    }
+    .JHT .JHT_box .JHT_info {
+        padding: 5px 0;
+    }
+    .JHT .JHT_box .JHT_footer {
+        color: #999;
+        text-align: right;
+    }
